@@ -52,22 +52,11 @@ The Hospital Management System is designed to manage patient appointments, medic
 
 ---
 
-### ⚡ Lightning Web Components (LWC)
-
-- Reusable Components
-- HTML
-- CSS
-- JavaScript
-- Apex Integration
-
----
-
 ## 🛠️ Technologies Used
 
 - Salesforce CRM
 - Apex
 - SOQL
-- Lightning Web Components (LWC)
 - Flow Builder
 - Validation Rules
 - Git

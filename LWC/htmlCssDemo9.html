@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First JavaScript Program</title>
+
+<style>
+    body{
+        text-align: center;
+    }
+
+    h1{
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid black;
+        display: inline-block;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    .output{
+text-align: left;
+color: blue;
+font-size: 20px;
+}
+
+ button{ 
+    
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;    }
+     
+    button:hover {
+        background-color: orange;
+    }
+    
+</style>
+</head>
+
+<body>
+
+<h1>My Life My Rules</h1>
+
+<p>My Life My Rules</p>
+<p id = "demo">My Life My Rules</p> 
+
+<p>Shut Up </p>
+
+<script>
+    window.alert("My Life My Rules");
+    document.write("<div class='output'>Mind Your Own Business</div>");
+    document.getElementById("demo").innerHTML = "Mind Your Own Business Bro";
+    console.log("Go to Hell");
+</script>
+
+<button onclick='document.write("<h1 style=\"color:red;\">My Life My Rules</h1>");'>
+    Click Me
+</button>
+
+</body>
+</html>

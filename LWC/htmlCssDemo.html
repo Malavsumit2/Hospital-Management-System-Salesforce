@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <h1>Java Script can change Css</h1>
+        
+    </head>
+    <body>
+         <p id="demo" style="color:blue; font-size:20px;"> JavaScript can change Css </p>
+
+         <script>
+            function changeCss() {
+                var element = document.getElementById("demo");
+                element.style.color = "red";
+                element.style.fontSize = "30px";
+            }
+            
+         </script>
+        <button type="button" onclick="changeCss()">Click Me!</button>
+    </body>
+
+</html>
